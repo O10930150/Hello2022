@@ -9,10 +9,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var txv:TextView = findViewById<TextView>(R.id.txv)
+        var txv: TextView = findViewById<TextView>(R.id.txv)
         //txv.text = "GoodAfternoon"
         //TestDEV()
         //TestMaster()
         txv.text = "午安各位"
 
     }
+}
